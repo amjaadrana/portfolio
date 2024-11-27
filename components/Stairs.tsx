@@ -8,7 +8,7 @@ const stairAnimation = {
     top: "100%",
   },
   exit: {
-    top: ["100%", "0%"]
+    top: ["100%", "0%"],
   },
 };
 
@@ -20,7 +20,7 @@ const reverseIndex = (index: number) => {
 const Stairs = () => {
   return (
     <>
-    {[...Array(6)].map((_, index) => {
+    {[...Array(5)].map((_, index) => {
     return(    
       <motion.div 
       key={index}
@@ -29,7 +29,7 @@ const Stairs = () => {
       animate="animate"
       exit ="exit"
       transition={{
-        duration: 0.4,
+        duration: 0.5,
         ease: "easeInOut",
         delay: reverseIndex(index) * 0.1
       }}
