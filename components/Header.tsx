@@ -6,7 +6,7 @@ import MobileNav from "./MobileNav"
 
 const Header = () => {
   return (
-    <header className="xl:py-6 py:8 text-white flex items-center justify-between   ">
+    <header className="xl:py-8 py:8 mb-5 text-white flex items-center justify-between xl:mr-10   ">
  
         <div className="container mx-aut0 flex items-center justify-between">
         <Link href="/">
@@ -18,8 +18,8 @@ const Header = () => {
         <div className="xl:flex hidden items-center gap-8">
           
             <NavBar />
-            <Link href='/contact'>
-                <Button className="mt-4 rounded-full bg-accent">Hire Me</Button>
+            <Link href='/contact' className="items-center justyfy-between">
+                <Button className="mt-2">Hire Me</Button>
             </Link>
         </div>
         <div className="xl:hidden">

@@ -6,4 +6,23 @@
   body {
     @apply font-primary bg-primary text-white leading-loose;
   }
+  .h1 {
+    @apply text-[38px] font-semibold leading-[1.1] xl:text-[60px];
+  }
+  .h2 {
+    @apply text-[28px] font-semibold leading-[1.1] xl:text-[40px];
+  }
+  .h3 {
+    @apply text-[18px] font-semibold leading-[1.1] xl:text-[30px];
+  }
+
+.text-outline {
+  -webkit-text-stroke: 1px #ffffff;
+  
+}
+
+.text-outline-hover {
+  -webkit-text-stroke: 1px #00ff98;
+}
+
 }

@@ -1,7 +1,6 @@
 'use client'
 import Link from "next/link"
 import { Button } from "./ui/button"
-import path from "path"
 import { usePathname } from "next/navigation"
 
 const link = [
@@ -16,6 +15,10 @@ const link = [
     {
         name: "Work",
         path: "/work",
+    },
+    {
+        name: "Resume",
+        path: "/resume",
     },
     {
         name: "Contact",

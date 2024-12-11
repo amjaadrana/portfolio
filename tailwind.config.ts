@@ -27,6 +27,7 @@ export default {
   	extend: {
   		colors: {
         primary:'#1c1c22',
+        secondary: '#fff900',
         // primary: "white",
   			// background: 'var(--background)',
   			// foreground: 'var(--foreground)'
